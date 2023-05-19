@@ -1,0 +1,126 @@
+header {
+    height: 100vh;
+    padding-top: 4rem;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--color-black);
+  background: -webkit-linear-gradient(45deg, #a019c2, #0cbcf9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: none;
+}
+
+.container h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color-primary);
+  background: -webkit-linear-gradient(45deg, #a019c2, #0cbcf9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ==== Call to Action ==== */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* ==== Call to Action ==== */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    transition: var(--transition);
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+/* ==== Image ==== */
+
+.me {
+    width: 40rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 20rem);
+    margin-top: 2.2rem;
+
+}
+
+/* ==== Scroll Down ==== */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: var(--color-primary) !important;
+}
+
+a.scroll__down {
+    color: var(--color-primary) !important;
+}
+
+a.scroll__down:hover {
+    color: var(--color-black) !important;
+}
+
+/* ===== Media Queries - Medium Devices ===== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+    .me {
+        position: relative;
+    }
+    .scroll__down {
+        transform: none;
+        padding-right: 2rem;
+    }
+
+    .header__socials {
+        flex-direction: row;
+        bottom: 4.5rem;
+        transition: var(--transition);
+    }
+
+}
+
+/* ===== Media Queries - Small Devices ===== */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    
+}
+
+
+  

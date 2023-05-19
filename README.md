@@ -1,3 +1,12 @@
+# JLJ.PT - Personal Website
+
+This project was built using Egator's design and structure React portfolio - [Video](https://www.youtube.com/watch?v=G-Cr00UYokU).
+It features a different design language, custom elements, sections and components. Integrates Formspree as opposed to EmailJS, and Animate.css.
+
+## Live Website
+
+[Website](https://jlj.pt)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

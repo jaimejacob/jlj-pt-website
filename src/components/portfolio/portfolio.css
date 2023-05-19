@@ -1,0 +1,82 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-white);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: var(--shadowbox);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.portfolio__item h3 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.made-with svg {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--color-primary);
+}
+
+.made-with {
+    line-height: 50px;
+    padding: 12px;
+    background: var(--color-primary-variant);
+    border-radius: 25px;
+}
+
+.project-description {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/* ===== Media Queries - Medium Devices ===== */
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* ===== Media Queries - Small Devices ===== */
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
