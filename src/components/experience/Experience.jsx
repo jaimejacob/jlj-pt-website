@@ -7,8 +7,8 @@ import {SiJavascript, SiReact, SiPython} from 'react-icons/si'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>My Tools of The Trade</h5>
+      <h2>Experience & Skills</h2>
 
       <div className="container experience__container">
 

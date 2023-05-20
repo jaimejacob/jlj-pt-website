@@ -6,9 +6,10 @@ import {AiOutlineFire, AiOutlineRocket, AiOutlineHeart} from 'react-icons/ai'
 const About = () => {
   return (
     <section id='about'>
-      <h5 className='animate__animated animate__fadeIn'>Get to know</h5>
-      <h2 className='animate__animated animate__fadeIn'>About Me</h2>
-
+      <div className='about-bg'>
+        <h5 className='animate__animated animate__fadeIn'>Get to know</h5>
+        <h2 className='animate__animated animate__fadeIn'>About Me</h2>
+      </div>
       <div className="container about__container">
 
         <div className="about__content">

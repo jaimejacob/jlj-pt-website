@@ -86,6 +86,19 @@ section {
     box-shadow: var(--shadowbox);
 }
 
+.about-bg {
+    background: var(--color-white);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
  /* ===== Media Queries - Medium Devices ===== */
 
 @media screen and (max-width: 1024px) {
