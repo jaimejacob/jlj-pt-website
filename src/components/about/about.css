@@ -97,6 +97,7 @@ section {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
+    box-shadow: var(--shadowbox);
 }
 
  /* ===== Media Queries - Medium Devices ===== */
